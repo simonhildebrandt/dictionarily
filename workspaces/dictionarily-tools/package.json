@@ -1,0 +1,17 @@
+{
+  "name": "dictionarily-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "process_words": "babel-node scripts/process_words.js",
+    "deploy_hosting": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
+    "@kamilmielnik/trie": "^1.0.3",
+    "firebase-tools": "^10.2.2"
+  }
+}

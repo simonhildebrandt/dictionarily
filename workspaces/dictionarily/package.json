@@ -1,0 +1,17 @@
+{
+  "name": "dictionarily",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel --delete-dir-on-start src --out-dir lib"
+  },
+  "dependencies": {
+    "@kamilmielnik/trie": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11"
+  }
+}

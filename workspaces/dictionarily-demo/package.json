@@ -1,0 +1,25 @@
+{
+  "name": "dictionarily-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "serve": "live-server --cors --port=9000 --entry-file=index.html dev/ --mount=/wordsets:../dictionarily-tools/wordsets",
+    "build": "yarn esbuild src/index.jsx --bundle --outfile=dev/index.js",
+    "watch": "yarn esbuild src/index.jsx --bundle --outfile=dev/index.js --watch"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.8.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@kamilmielnik/trie": "^1.0.3",
+    "axios": "^0.25.0",
+    "esbuild": "^0.14.18",
+    "framer-motion": "^5",
+    "live-server": "^1.2.1",
+    "react": "^17.0.2",
+    "@babel/polyfill": "^7.12.1",
+    "react-dom": "^17.0.2"
+  }
+}
