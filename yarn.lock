@@ -791,6 +791,12 @@
 "@nicolo-ribaudo/chokidar-2@2.1.8-no-fsevents.3":
   "version" "2.1.8-no-fsevents.3"
 
+"@simonhildebrandt/dictionarily@file:/Users/simon.hildebrandt/Code/dictionarily/workspaces/dictionarily":
+  "resolved" "file:workspaces/dictionarily"
+  "version" "1.0.0"
+  dependencies:
+    "@kamilmielnik/trie" "^1.0.3"
+
 "ansi-styles@^3.2.1":
   "integrity" "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA=="
   "resolved" "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz"
@@ -958,12 +964,6 @@
     "define-data-property" "^1.0.1"
     "has-property-descriptors" "^1.0.0"
     "object-keys" "^1.1.1"
-
-"dictionarily@file:/Users/simon.hildebrandt/Code/dictionarily/workspaces/dictionarily":
-  "resolved" "file:workspaces/dictionarily"
-  "version" "1.0.0"
-  dependencies:
-    "@kamilmielnik/trie" "^1.0.3"
 
 "electron-to-chromium@^1.5.4":
   "integrity" "sha512-lbBcvtIJ4J6sS4tb5TLp1b4LyfCdMkwStzXPyAgVgTRAsep4bvrAGaBOP7ZJtQMNJpSQ9SqG4brWOroNaQtm7Q=="
