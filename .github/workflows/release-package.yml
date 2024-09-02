@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: 18
           registry-url: https://npm.pkg.github.com/
-      - run: npm ci --workspace=dictionarily
-      - run: npm run build --workspace=dictionarily
-      - run: npm publish --workspace=dictionarily
+      - run: npm ci --workspace=@simonhildebrandt/dictionarily
+      - run: npm run build --workspace=@simonhildebrandt/dictionarily
+      - run: npm publish --workspace=@simonhildebrandt/dictionarily
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
